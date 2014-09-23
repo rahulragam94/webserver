@@ -13,7 +13,7 @@ var obj = document.getElementById("scale" + scaleChoice);
 obj.setAttribute("fill", "white");
 scaleChoice = n;
 obj = document.getElementById("scale" + scaleChoice);
-obj.setAttribute("fill", "#ffc");
+obj.setAttribute("fill", "#ffb");
 transformShirt();
 }
 function transformShirt()
