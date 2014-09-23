@@ -1,0 +1,23 @@
+title{
+color:green;
+}
+body{
+font:menu;
+color: black;
+text-align:center;
+background: lightgrey;
+-webkit-animation-name: mymove;
+-webkit-animation-duration: 2.5s;
+}
+@-webkit-keyframes mymove {
+      from {
+      
+        margin-top:100%;
+        height:300%
+      }
+      
+      to {
+        margin-top:0%;
+        height:100%;
+      }
+    }
